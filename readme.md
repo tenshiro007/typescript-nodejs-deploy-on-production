@@ -29,7 +29,8 @@ https://ashwin9798.medium.com/nginx-with-docker-and-node-js-a-beginners-guide-43
 # Testing Deploy Nodejs 
 Testing deploy typescript-nodejs with docker via nginx
 
-## Set up vm
+## Installation
+### Set up vm
 This using ubuntu server that create from Google Cloud Platform (vm instance)
 ```
 $ sudo apt-get update
@@ -46,15 +47,25 @@ $ apt-cache policy docker-ce
 $ sudo apt update
 $ sudo apt install docker-ce
 $ sudo systemctl status docker
-```
 
-## Installation
+Setup ufw firewall
+$ sudo ufw enable
+$ sudo ufw status
+$ sudo ufw allow ssh
+$ sudo ufw allow http
+$ sudo ufw allow https
+```
+ 
+## get project && deploy
 ```
 $ git clone https://github.com/tenshiro007/typescript-nodejs-deploy-on-production
 
 cd to root directory
 
 $ docker-compose up -d --build
+$ docker ps
 
 nginx server run at port 8080
+[your ip of vm]:8080
+
 ```
