@@ -29,6 +29,14 @@ https://ashwin9798.medium.com/nginx-with-docker-and-node-js-a-beginners-guide-43
 # Testing Deploy Nodejs 
 Testing deploy typescript-nodejs with docker via nginx
 
+## Tech Stack
+
+**Api:** Node-Express,typescript
+
+**Deploy:** Docker,Enginx
+
+**VM:** Google cloud platform: Vm instance
+
 ## Installation
 ### Set up vm
 This using ubuntu server that create from Google Cloud Platform (vm instance)
