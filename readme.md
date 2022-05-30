@@ -56,7 +56,7 @@ $ sudo ufw allow http
 $ sudo ufw allow https
 ```
  
-## get project && deploy
+### get project && deploy
 ```
 $ git clone https://github.com/tenshiro007/typescript-nodejs-deploy-on-production
 
